@@ -1,0 +1,90 @@
+.main {
+  max-width: 1200px;
+}
+
+.box {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.sidebar {
+  background: #a8ebc1;
+  width: 25%;
+  height: 350px;
+  line-height: 350px;
+}
+
+.topbar {
+  background: #79d2f6;
+  height: 50px;
+  line-height: 50px;
+}
+
+.main-content {
+  background: #f6ee8e;
+  height: 300px;
+  line-height: 300px;
+}
+
+.foot-l {
+  background: #f5d6a3;
+  width: 80%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.foot-r {
+  background: #e7a4e2;
+  width: 20%;
+  height: 50px;
+  line-height: 50px;
+}
+
+/* Float */
+.box--float {
+  height: 400px;
+}
+
+.box--float .sidebar {
+  float: left;
+}
+
+.box--float .topbar {
+  float: right;
+  width: 75%;
+}
+
+.box--float .main-content {
+  float: right;
+  width: 75%;
+}
+
+.box--float .footer {
+  clear: both;
+}
+
+.box--float .foot-l {
+  float: left;
+}
+
+.box--float .foot-r {
+  float: right;
+}
+
+/* Flex */
+.box--flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 75%;
+}
+
+.box--flex .footer {
+  display: flex;
+}
