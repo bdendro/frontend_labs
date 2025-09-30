@@ -1,0 +1,40 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 16px 48px;
+}
+
+.title {
+  margin: 0 0 24px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.links {
+  display: inline-flex;
+  gap: 12px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #111;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: #f9fafb;
+  transition: all 0.1s;
+}
+
+.btn:hover {
+  background: #f3f4f6;
+  border-color: #d1d5db;
+}
